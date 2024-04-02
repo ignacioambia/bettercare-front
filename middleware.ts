@@ -9,7 +9,7 @@ export function middleware(request: NextRequest){
   }
 
   if(request.nextUrl.pathname === '/login' && token){
-    return NextResponse.redirect(new URL('/patients', request.url));
+    return NextResponse.redirect(new URL('/pacientes', request.url));
   }
 
 

@@ -1,0 +1,18 @@
+.patients-list{
+
+ .add-patient-wrapper{
+  display: flex;
+  justify-content: right;
+  padding: 10px 0px;
+ }
+
+ table{
+  width: 100%;
+
+  .schedule-appointment{
+   display: flex;
+   justify-content: right;
+   min-width: 170px;
+  }
+ }
+}

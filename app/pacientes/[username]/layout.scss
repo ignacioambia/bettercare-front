@@ -1,0 +1,26 @@
+.patient-layout{
+ .navbar{
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  justify-content: center;
+ 
+  >*{
+   flex-grow: 1;
+  }
+ }
+ 
+ 
+ .prev-appointments{
+ }
+ 
+ .selected-tab{
+  grid-column: span 2;
+ }
+
+ button{
+  width: 100%;
+ }
+ 
+}

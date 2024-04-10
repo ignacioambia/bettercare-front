@@ -23,5 +23,17 @@
   justify-content: end;
  }
 
+ .nota{
+  color: gray;
+  padding: 14px 0px;
+  font-size: 14px;
+  font-style: italic;
+ }
+
+ .gender-options{
+  display: flex;
+  flex-direction: row;
+ }
+
 }
 
